@@ -13,6 +13,7 @@ document.querySelector('.country_input').addEventListener('input', debounce(onIn
 const countryCardNode = document.querySelector('.country_card');
 
 function onInputAction(e) {
+  countryCardNode.innerHTML = '';
   fetchCountries(e.target.value).then(findCountry);
 }
 

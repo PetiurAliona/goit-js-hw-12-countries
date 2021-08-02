@@ -1,0 +1,31 @@
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.country_input {
+  height: 20px;
+}
+
+.country_info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 300px;
+  margin-left: 15px;
+}
+
+.country_wrapper {
+  text-align: center;
+}
+
+.country_list {
+  margin-top: 15px;
+  text-align: center;
+}
